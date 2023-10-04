@@ -1,0 +1,43 @@
+.navbar--container{
+    position: fixed;
+    top: 0px;   
+    left: 0px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #870e4f;
+    overflow: hidden;
+}
+
+.navbar--title{
+    font-size: .7rem;
+    letter-spacing: .2rem;
+    color: white;
+
+}
+
+.navbar--links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.navbar--link{
+padding: 10px;
+}
+
+a{
+    color: white !important;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+
+/*- External
+- inline
+- object styling*/
